@@ -11,42 +11,51 @@ public class Hotel {
 
     private int pricePerNight;
 
-    public Hotel(String hotelName, int availableRooms, List<Facility> facilities, int pricePerNight) {
+    public Hotel(String hotelName, int availableRooms, List<Facility> facilities, int pricePerNight)
+    {
         this.hotelName = hotelName;
         this.availableRooms = availableRooms;
         this.facilities = facilities;
         this.pricePerNight = pricePerNight;
     }
 
-    public String getHotelName() {
+    public String getHotelName()
+    {
         return hotelName;
     }
 
-    public void setHotelName(String hotelName) {
+    public void setHotelName(String hotelName)
+    {
         this.hotelName = hotelName;
     }
 
-    public int getAvailableRooms() {
+    public int getAvailableRooms()
+    {
         return availableRooms;
     }
 
-    public void setAvailableRooms(int availableRooms) {
+    public void setAvailableRooms(int availableRooms)
+    {
         this.availableRooms = availableRooms;
     }
 
-    public List<Facility> getFacilities() {
+    public List<Facility> getFacilities()
+    {
         return facilities;
     }
 
-    public void setFacilities(List<Facility> facilities) {
+    public void setFacilities(List<Facility> facilities)
+    {
         this.facilities = facilities;
     }
 
-    public int getPricePerNight() {
+    public int getPricePerNight()
+    {
         return pricePerNight;
     }
 
-    public void setPricePerNight(int pricePerNight) {
+    public void setPricePerNight(int pricePerNight)
+    {
         this.pricePerNight = pricePerNight;
     }
 }

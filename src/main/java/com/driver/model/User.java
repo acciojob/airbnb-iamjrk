@@ -6,33 +6,40 @@ public class User {
     private String name;
     private int age;
 
-    public User(int aadharCardNo, String name, int age) {
+    public User(int aadharCardNo, String name, int age)
+    {
         this.aadharCardNo = aadharCardNo;
         this.name = name;
         this.age = age;
     }
 
-    public int getaadharCardNo() {
+    public int getaadharCardNo()
+    {
         return aadharCardNo;
     }
 
-    public void setaadharCardNo(int aadharCardNo) {
+    public void setaadharCardNo(int aadharCardNo)
+    {
         this.aadharCardNo = aadharCardNo;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age)
+    {
         this.age = age;
     }
 }
